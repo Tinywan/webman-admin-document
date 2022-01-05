@@ -1,15 +1,12 @@
 {
-  "name": "webman-admin-document",
-  "version": "1.0.0",
-  "description": "webman-admin-document",
-  "repository": "git@github.com:Tinywan/webman-admin-document.git",
-  "author": "万少波 <756684177@qq.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^2.0.0-beta.32"
-  },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vuepress dev .",
+    "docs:build": "vuepress build ."
+  },
+  "devDependencies": {
+    "vuepress": "vuepress@next"
+  },
+  "dependencies": {
+    "@vuepress/plugin-search": "^2.0.0-beta.32"
   }
 }

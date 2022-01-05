@@ -1,34 +1,26 @@
 ---
 home: true
-heroImage: '/images/logo.png'
+heroImage: '/images/logo.jpg'
 heroText: null
 tagline: null
 actions:
 - text: 快速上手 →
-  link: /docs/v3/
+  link: /docs/v1/
   type: primary
 features:
-- title: 简洁至上
-  details: 让我们用最少的代码写最复杂的功能，把更多时间花在游戏上。
-- title: 集成最新API
-  details: 集成支付宝、微信最新API，与时俱进不用担心老代码没人维护了。
-- title: 统一标准
-  details: 符合最新 PSR 标准，方便你集成到各种其他框架中，无惧束缚。
-- title: 丰富的事件系统
-  details: 可以 hook 到绝大部分场景，自己的代码自己掌握。
-- title: 命名不那么乱七八糟
-  details: 命名统一，终于可以不用记那些烂七八糟的名称了。
-- title: 文件结构清晰
-  details: 文件结构清晰，架构明了，欢迎 PR。
-footer: MIT Licensed | Copyright © 2017-now Yansongda
+- title: 性能提升10-100倍
+  details: 基于常驻内存、epoll高性能事件循环库、高性能协议解析，workerman可将基于php-fpm的架构应用性能提升十倍甚至近百倍。
+- title: 稳定性
+  details: 经过多年的不断打磨及完善，workerman早已具备企业级的稳定性，已经被众多公司用在生产环境上。
+- title: 兼容性
+  details: 兼容现有composer生态。即将推出的workerman v5版本将支持PHP自带的Fiber协程以及Swoole、ReactPHP、AmPHP等协程库。
+- title: 易用性
+  details: 少既是多，workerman只提供必要的功能接口，在保证workerman简约的同时，你会发现它使用真的很简单。
+- title: 应用场景一
+  details: WEB网站、HTTP接口、微服务、微信小程序等。物联网、智能家居、传感器、车联网、设备监控等。TCP、UDP、websocket、socket.io、即时通讯、聊天APP、聊天室、推送等
+- title: 应用场景二
+  details: 移动端应用、小程序、手机游戏、网络游戏等。HTTP代理、socks5代理、TCP代理、UDP代理等。微服务、定时任务 、消息队列、爬虫、SAAS、服务监控等
+footer: Copyright © 2022 wwww.tinywan.cn All Rights Reserved 浙公网安备 浙ICP备17041164号-2
 ---
 
-## 授权
 
-### 类库
-
-[yansongda/pay](https://github.com/yansongda/pay) 项目采用 MIT 协议开源发布，任何人均可在遵循 MIT 协议的情况下随意使用。
-
-### 文档
-
-- 网站（[https://pay.yansongda.cn](https://pay.yansongda.cn)）（包括但不限于 `pay.yansongda.cn` 域名下所有文字、图片）以 [CC BY SA 4.0 国际许可协议](https://creativecommons.org/licenses/by/4.0/deed.zh))授权。
