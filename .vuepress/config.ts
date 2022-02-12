@@ -4,7 +4,7 @@ import type { DefaultThemeOptions } from 'vuepress'
 export default defineUserConfig<DefaultThemeOptions>({
     base: '/webman-admin-document/',
     lang: 'zh-CN',
-    head: [['link', { rel: 'icon', href: '/images/web.dev-icon.svg' }]],    
+    head: [['link', { rel: 'icon', href: './images/web.dev-icon.svg' }]],    
     title: 'webman-admin 开发文档',
     description: 'webman-admin 开发文档',
     themeConfig: {
