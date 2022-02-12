@@ -11,7 +11,8 @@ export default defineUserConfig<DefaultThemeOptions>({
         logo: '/images/web.dev-icon.svg',
         theme: '@org/bar',
         navbar: [
-            { text: 'Home', link: '/' }
+            { text: 'Home', link: '/' },
+            { text: 'Github', link: 'https://github.com/Tinywan/webman-admin'}
         ],
         lastUpdated: true,
         lastUpdatedText: '最近修改时间',
