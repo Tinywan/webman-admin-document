@@ -27,6 +27,12 @@ export default defineUserConfig<DefaultThemeOptions>({
                         '/docs/v1/start/update-log.md',
                     ]
                 },
+                {
+                    text: '基础管理',
+                    children: [
+                        '/docs/v1/basic/issue-token.md'
+                    ]
+                },
             ]
         }
     },
