@@ -30,7 +30,8 @@ export default defineUserConfig<DefaultThemeOptions>({
                 {
                     text: '基础管理',
                     children: [
-                        '/docs/v1/basic/issue-token.md'
+                        '/docs/v1/basic/issue-token.md',
+                        '/docs/v1/basic/user.md'
                     ]
                 },
             ]
