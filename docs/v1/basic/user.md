@@ -27,7 +27,7 @@ title: 2.0 用户管理
 |└ email |string | 是| 16 | 邮箱 |`Tinywan@aliyun.com`|
 |└ mobile |string | 是| 16 |手机号码 | `136693618999`|
 |└ avatar |string | 否 | 16 | 头像 |![avatar](https://live-oss.www.com/assets/images/avatars/6avatar.jpg)|
-|└ website_name |string | 是| 16 | 站点名称 |马兰花创业培训|
+|└ website_name |string | 是| 16 | 站点名称 |元宇宙在哪里？|
 |└ website_url |string | 是| 16 | 站点地址 |https://www.tinywan.com|
 #### 响应示例
 
